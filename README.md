@@ -18,4 +18,4 @@ Technologies Used
 - Bootstrap 4: For responsive design and layout, as well as components such as buttons and form elements.
 - JavaScript: For handling input from the user and manipulating arrays and strings.
 
-Live Demo : https://github.com/Gege-alii/problem_solving/
+Live Demo : https://gege-alii.github.io/problem_solving/
