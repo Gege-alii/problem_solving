@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Problem solving</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Exercise 1: Filtering an Array -->
+    <div class="container mt-5">
+        <h1 class="text-center">Filter Even Numbers</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="numberArray1">Enter an array of numbers (comma-separated):</label>
+                    <input type="text" id="numberArray1" class="form-control" placeholder="e.g., 1, 2, 3, 4, 5">
+                </div>
+                <button class="btn btn-success" onclick="filterEvenNumbers()">Filter Even Numbers</button>
+                <h3 class="mt-4">Even Numbers:</h3>
+                <p id="result1" class="alert alert-info" class="result"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Exercise: 2 Find the Largest Number -->
+    <div class="container mt-5">
+        <h1 class="text-center">Find the Largest Number</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="numberArray2">Enter an array of numbers (comma-separated):</label>
+                    <input type="text" id="numberArray2" class="form-control" placeholder="e.g., 1, 2, 3, 4, 5">
+                </div>
+                <button class="btn btn-success" onclick="findLargestNumber()">Find Largest Number</button>
+                <h3 class="mt-4">Largest Number:</h3>
+                <p id="result2" class="alert alert-info" class="result"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Exercise: 3 Reverse a String -->
+    <div class="container mt-5">
+        <h1 class="text-center">Reverse String</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inputString">Enter a string:</label>
+                    <input type="text" id="inputString" class="form-control" placeholder="e.g., Hello World">
+                </div>
+                <button class="btn btn-success" onclick="reverseString()">Reverse String</button>
+                <h3 class="mt-4">Reversed String:</h3>
+                <p id="result3" class="alert alert-info" class="result"></p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Exercise: 4 Remove Duplicates -->
+    <div class="container mt-5">
+        <h1 class="text-center">Remove Duplicate Numbers</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="numberArray3">Enter an array of numbers (comma-separated):</label>
+                    <input type="text" id="numberArray3" class="form-control" placeholder="e.g., 1, 2, 3, 2, 4, 5, 5">
+                </div>
+                <button class="btn btn-success" onclick="removeDuplicates()">Remove Duplicates</button>
+                <h3 class="mt-4">Unique Numbers:</h3>
+                <p id="result4" class="alert alert-info" class="result"></p>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
